@@ -34,6 +34,10 @@ namespace KütüphaneOtomasyonuWinForm
             else
             {
                 MessageBox.Show("Başarılı");
+
+                İslemPaneli panel = new İslemPaneli();
+                panel.Show();
+                this.Hide();
             }
         }
     }
